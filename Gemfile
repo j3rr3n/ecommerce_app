@@ -52,3 +52,10 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'devise'
+gem 'paperclip'  # Mac only or gem 'carrierwave' for PC or Mac
+gem 'cancancan'
+gem 'pry-rails' #for rails c
+gem 'better_errors', group: :development
+gem 'binding_of_caller' #works with better errors to see
+                        #instance variable values
